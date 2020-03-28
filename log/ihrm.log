@@ -1,0 +1,45 @@
+2020-03-26 14:43:54,676 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 14:43:55,110 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ebb0af49-8089-42c0-83cf-95bd1fc565e3'}
+2020-03-26 14:43:55,163 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,214 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,269 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,329 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,388 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,446 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,499 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '53b9a081-e4a3-490e-a4cd-4db3ac9be920'}
+2020-03-26 14:43:55,554 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,606 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:43:55,661 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-26 14:43:55,724 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:44:27,533 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 14:44:27,647 INFO [root] [test_emp2.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '877aee72-6935-4c3a-9b8d-30ba94a44fb6'}
+2020-03-26 14:44:27,647 INFO [root] [test_emp2.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 877aee72-6935-4c3a-9b8d-30ba94a44fb6'}
+2020-03-26 14:44:27,702 INFO [root] [test_emp2.py(test02_add_emp:55)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243066267841417216'}}
+2020-03-26 14:44:27,702 INFO [root] [test_emp2.py(test02_add_emp:61)] - app.EMPID为：1243066267841417216
+2020-03-26 14:44:27,746 INFO [root] [test_emp2.py(test03_query_emp:71)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243066267841417216', 'mobile': '14790123809', 'username': '葫芦娃xxsupe007', 'password': '4558335727750c302bafb6cfac515404', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-26 14:44:27,795 INFO [root] [test_emp2.py(test04_modify_emp:81)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243066267841417216'}}
+2020-03-26 14:44:27,950 INFO [root] [test_emp2.py(test04_modify_emp:100)] - 打印SQL语句：select username from bs_user where id=1243066267841417216
+2020-03-26 14:44:27,984 INFO [root] [test_emp2.py(test04_modify_emp:106)] - 执行SQL语句查询的结果为：('金刚狼',)
+2020-03-26 14:44:28,041 INFO [root] [test_emp2.py(test05_delete_emp:123)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-26 14:45:16,649 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 14:45:16,871 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bd238c28-862b-4889-8f7e-fd8da01d9cf0'}
+2020-03-26 14:45:16,927 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:16,982 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,051 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,108 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,166 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,218 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,273 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f48ea9fc-a089-4bf0-aea5-ff09f2dc280c'}
+2020-03-26 14:45:17,327 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,382 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,441 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-26 14:45:17,497 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 14:45:17,563 INFO [root] [test_emp2.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd162b412-f6e6-421f-b802-16064712e81a'}
+2020-03-26 14:45:17,563 INFO [root] [test_emp2.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer d162b412-f6e6-421f-b802-16064712e81a'}
+2020-03-26 14:45:17,624 INFO [root] [test_emp2.py(test02_add_emp:55)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243066477250433024'}}
+2020-03-26 14:45:17,624 INFO [root] [test_emp2.py(test02_add_emp:61)] - app.EMPID为：1243066477250433024
+2020-03-26 14:45:17,679 INFO [root] [test_emp2.py(test03_query_emp:71)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243066477250433024', 'mobile': '14790123809', 'username': '葫芦娃xxsupe007', 'password': '4558335727750c302bafb6cfac515404', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-26 14:45:17,734 INFO [root] [test_emp2.py(test04_modify_emp:81)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243066477250433024'}}
+2020-03-26 14:45:17,853 INFO [root] [test_emp2.py(test04_modify_emp:100)] - 打印SQL语句：select username from bs_user where id=1243066477250433024
+2020-03-26 14:45:17,886 INFO [root] [test_emp2.py(test04_modify_emp:106)] - 执行SQL语句查询的结果为：('金刚狼',)
+2020-03-26 14:45:17,951 INFO [root] [test_emp2.py(test05_delete_emp:123)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
